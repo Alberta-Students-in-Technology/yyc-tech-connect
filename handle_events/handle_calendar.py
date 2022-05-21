@@ -15,14 +15,13 @@ class HandleCalendar:
 
 
     # adds events to calendar, edit teh default temp w event data
-    def add_events(self):
+    def add_events(self, data):
 
-
-
-
-
-        default_temp ={
-    'summary': 'New event',
+       for i in range(len(data['summary'])):
+    
+            title = data['summary'][i]
+            default_temp ={
+    'summary': f'{title}',
     'location': '800 Howard St., San Francisco, CA 94103',
     'description': 'A chance to hear more about Google\'s developer products.',
     'start': {
@@ -49,4 +48,4 @@ class HandleCalendar:
     },
     }
 
-        self.service.events().insert(calendarId=self.calendar_id, body=default_temp).execute()
+            self.service.events().insert(calendarId=self.calendar_id, body=default_temp).execute()
