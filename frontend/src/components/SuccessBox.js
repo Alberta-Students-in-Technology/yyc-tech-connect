@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './SuccessBox.css';
 import Button from '@mui/material/Button';
-
+import {Link} from "react-router-dom";
 function SuccessBox(){
     const [style, setStyle] = useState("box");
     const [blur, setBlur] = useState('blur')
@@ -11,6 +11,8 @@ function SuccessBox(){
         setBlur("blur2")
         setTimeout(function(){setStyle("box3")}, 250)
         setTimeout(function(){setTotal('total2')}, 1000)
+        var token = window.location.href.split("access_token=")[1]; 
+        window.location = "/main/" + token;
         
     }
     return(
@@ -21,7 +23,8 @@ function SuccessBox(){
                 <h1 id='title'>SUCCESS!</h1>
                 <h2>You have successfully signed into eventbrite!</h2>
                 <Button variant="contained" color='success' id='button' onClick={changeStyle}>
-                    Continue to the Calendar
+                	Continue to the Calendar
+                    
                 </Button>
             </div>
         </div>

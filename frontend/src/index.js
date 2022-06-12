@@ -2,12 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import CalendarPage from './components/CalendarPage';
+import SuccessBox from './components/SuccessBox';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    
+    <Router>
+    <Routes>
+    <Route exact path='/' exact element = {<App />} />
+    <Route path='/main/:token' exact element = {<CalendarPage />} />
+    <Route path='/home' exact element = {<SuccessBox />} />
+    <Route path='/view' exact element = {<CalendarPage/>} />
+    
+    </Routes>
+    </Router>
   </React.StrictMode>
 );
 

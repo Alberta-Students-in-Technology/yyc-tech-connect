@@ -14,6 +14,10 @@ import Theme from './Components-Welcome/Theme.js'
 function App() {
   const theme = useTheme();
   console.log(theme.palette.main)
+  const viewCal = () =>{
+  window.location = "/view"
+  }
+  
   return (
     <ThemeProvider theme={Theme}>
       <header className='App-header'>
@@ -39,7 +43,10 @@ function App() {
                   justifyContent="center"
                   alignItems='center'
                   m={2}>
-                  <Button href='https://www.eventbrite.ca/signin/'
+                          
+
+        
+                  <Button href='https://www.eventbrite.com/oauth/authorize?response_type=token&client_id=SIPL2IVAEKK6BOEFS3&redirect_uri=http://127.0.0.1:5000/home'
                     variant='contained' color="secondary" sx={{ mt: 2, ml: 0, height: 60, width: 310, borderRadius: 8 }}>
                     <Box sx={{ position: "absolute", left: "3%", top: 13 }}>
                       <img src={Icon} height={30} width={35} />
@@ -47,13 +54,24 @@ function App() {
                     <Typography color={orange[900]} sx={{ fontWeight: 600 }}>
                       Sign in with Eventbrite
                     </Typography>
+                    
                   </Button>
-                  <Button href='https://calendar.google.com/calendar/'
-                    variant='contained' color="secondary" sx={{ mt: 2, ml: 0, height: 45, width: 310, borderRadius: 8 }}>
+                  	
+                  
+            
+        
+                  <Button
+                    variant='contained' color="secondary" sx={{ mt: 2, ml: 0, height: 45, width: 310, borderRadius: 8 }} onClick={viewCal}>
+                    
+                    
+                    
+                    
+                    
                     <Typography color={orange[900]} sx={{ fontWeight: 600 }}>
                       Google Calendar
                     </Typography>
                   </Button>
+
                 </Box>
               </Paper>
             </Paper>
