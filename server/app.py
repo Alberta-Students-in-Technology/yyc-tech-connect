@@ -8,40 +8,30 @@ import json
 
 app = Flask(__name__)
 
-#---------------ouath2 deatils (eventbrite)------------------------------------------#
-key = "SIPL2IVAEKK6BOEFS3"
-cl_sec = "S7WZZRPSIBMWSMSGERQ65OSBLUKBOXA5ZM7UYSEQTA2PZ7NJLM"
-end_point = "http://127.0.0.1:5000/home"
   
-
-
 #main route
 @app.route('/')
 def main():  # put application's code here
     return render_template('index.html')
 
 
-#intial step in verifying auth and getting personal acess token
+
 @app.route('/home', methods=['POST','GET'])
-def oauth2():
-    #gets the token from url via js and rediects to main screen
+def get_token():
+    #gets the token from url via js and redirects to main screen
     return render_template('index.html')
 
 
 #main page w/ calendar and w/ acesc token being used as variable in route
 @app.route('/main/<token>', methods=['GET','POST'])
 def view_cal(token):
-    #if method pot, get eventbrite vents using token and add events via GCal
-    #add events to GCal
+    #if method pot, get eventbrite events using token and adds events via GCal
     GCal().add_events(Events(token).get_events())
 
 
     return render_template('index.html')
 
-
-    
-    
-    
+#for viewing the calendar as is   
 @app.route('/view')
 def view():
     return render_template('index.html')
