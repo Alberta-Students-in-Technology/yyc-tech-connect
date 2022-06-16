@@ -6,10 +6,10 @@ import { Paper } from '@mui/material';
 import { Button } from '@mui/material';
 import { useTheme } from "@mui/material"
 import { Box } from '@mui/system';
-import ParticleBackground from './Components-Welcome/Particle';
-import Icon from './Components-Welcome/EventbriteIcon.PNG'
-import TechConnectTitle from './Components-Welcome/YYC-Tech-Connect.PNG'
-import Theme from './Components-Welcome/Theme.js'
+import ParticleBackground from './frontend/components_welcome_page/Particle';
+import Icon from './frontend/components_welcome_page/EventbriteIcon.PNG'
+import TechConnectTitle from './frontend/components_welcome_page/YYC-Tech-Connect.PNG'
+import Theme from './frontend/components_welcome_page/Theme.js'
 
 function App() {
   const theme = useTheme();
