@@ -2,8 +2,8 @@ import eventbrite
 import requests
 from flask import Flask, url_for
 from flask import render_template, redirect, request
-from calendar import HandleCalendar as GCal
-from events import Events
+from server.calendar import HandleCalendar as GCal
+from server.events import Events
 import json
 
 app = Flask(__name__)
