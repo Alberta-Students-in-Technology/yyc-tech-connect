@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/react/css/main.d99b9688.css",
-    "main.js": "/static/react/js/main.b59603f0.js",
+    "main.js": "/static/react/js/main.7b7a7570.js",
     "js/937.b20e7593.chunk.js": "/static/react/js/937.b20e7593.chunk.js",
     "js/787.1f559aaf.chunk.js": "/static/react/js/787.1f559aaf.chunk.js",
     "media/Page.png": "/static/react/media/Page.f3861acb6e06eb6e919f.png",
@@ -9,12 +9,12 @@
     "media/EventbriteIcon.PNG": "/static/react/media/EventbriteIcon.24157ab0f0a8bb6d88c7.PNG",
     "../../templates/index.html": "/static/react/../../templates/index.html",
     "main.d99b9688.css.map": "/static/react/css/main.d99b9688.css.map",
-    "main.b59603f0.js.map": "/static/react/js/main.b59603f0.js.map",
+    "main.7b7a7570.js.map": "/static/react/js/main.7b7a7570.js.map",
     "937.b20e7593.chunk.js.map": "/static/react/js/937.b20e7593.chunk.js.map",
     "787.1f559aaf.chunk.js.map": "/static/react/js/787.1f559aaf.chunk.js.map"
   },
   "entrypoints": [
     "css/main.d99b9688.css",
-    "js/main.b59603f0.js"
+    "js/main.7b7a7570.js"
   ]
 }
