@@ -10,7 +10,7 @@ class HandleCalendar:
        # creating api service
 
        SCOPES = ['https://www.googleapis.com/auth/calendar']
-       SERVICE_ACCOUNT_FILE = '~/yyc-tech-connect/server/key.json'  # You should make it an environment variable
+       SERVICE_ACCOUNT_FILE = 'key.json'  # You should make it an environment variable
        SUBJECT = "asit-gcal@asit-gcal.iam.gserviceaccount.com"
 
        credentials = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=SCOPES)
