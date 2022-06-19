@@ -36,7 +36,4 @@ def view_cal(token):
 def view():
     return render_template('index.html')
 
-#runs the program
-if __name__ == '__main__':
-    app.debug=False
-    app.run()
+
