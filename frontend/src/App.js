@@ -1,5 +1,4 @@
 import './App.css';
-import { amber, orange } from '@mui/material/colors';
 import { ThemeProvider } from '@emotion/react';
 import { Grid, Typography } from '@mui/material';
 import { Paper } from '@mui/material';
@@ -46,20 +45,10 @@ function App() {
                       </Box>
                       <Typography variant="h3" component='div' color={'#C24B4B'} sx={{ ml: 5, fontWeight: 800, fontSize: 30, fontFamily: 'Roboto', textTransform: 'none'}}>
                         Sign in with Eventbrite
-                      </Typography>
-                      
+                      </Typography> 
                     </Button>
                       
-                    
-              
-          
-                    <Button
-                      variant='contained' color="secondary" sx={{ mt: 3, ml: 0, height: 70, width: 400, borderRadius: 50 }} onClick={viewCal}>
-                      
-                      
-                      
-                      
-                      
+                    <Button variant='contained' color="secondary" sx={{ mt: 3, ml: 0, height: 70, width: 400, borderRadius: 50 }} onClick={viewCal}> 
                       <Typography variant="h3" component='div' color={'#C24B4B'} sx={{ fontWeight: 800, fontSize: 30, fontFamily: 'Roboto', textTransform: 'none'}}>
                         Google Calendar
                       </Typography>
