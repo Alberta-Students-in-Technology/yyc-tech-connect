@@ -2,6 +2,7 @@
   "files": {
     "main.css": "/static/react/css/main.2721c3b2.css",
     "main.js": "/static/react/js/main.08c70a56.js",
+
     "media/EventbriteIcon.PNG": "/static/react/media/EventbriteIcon.9e78911b3f28ef13e5a7.PNG",
     "media/CalgaryBackground2.jpg": "/static/react/media/CalgaryBackground2.952749040e619f7032ff.jpg",
     "media/CalgaryBackground.jpg": "/static/react/media/CalgaryBackground.6554e0d4071c4e179c50.jpg",
@@ -15,5 +16,6 @@
   "entrypoints": [
     "css/main.2721c3b2.css",
     "js/main.08c70a56.js"
+
   ]
 }
