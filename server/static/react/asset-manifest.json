@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/static/react/css/main.d99b9688.css",
-    "main.js": "/static/react/js/main.08f3d156.js",
-    "js/937.b20e7593.chunk.js": "/static/react/js/937.b20e7593.chunk.js",
-    "js/787.1f559aaf.chunk.js": "/static/react/js/787.1f559aaf.chunk.js",
-    "media/Page.png": "/static/react/media/Page.f3861acb6e06eb6e919f.png",
-    "media/YYC-Tech-Connect.PNG": "/static/react/media/YYC-Tech-Connect.d87ea93ebcb64c61c125.PNG",
-    "media/EventbriteIcon.PNG": "/static/react/media/EventbriteIcon.24157ab0f0a8bb6d88c7.PNG",
+    "main.css": "/static/react/css/main.2721c3b2.css",
+    "main.js": "/static/react/js/main.f609367e.js",
+    "media/EventbriteIcon.PNG": "/static/react/media/EventbriteIcon.9e78911b3f28ef13e5a7.PNG",
+    "media/CalgaryBackground2.jpg": "/static/react/media/CalgaryBackground2.952749040e619f7032ff.jpg",
+    "media/CalgaryBackground.jpg": "/static/react/media/CalgaryBackground.6554e0d4071c4e179c50.jpg",
+    "media/Success.jpg": "/static/react/media/Success.7213523ebeb9a3876281.jpg",
+    "media/Logo.png": "/static/react/media/Logo.5c497c006835e5dab21d.png",
+    "media/YYC-Tech-Connect.PNG": "/static/react/media/YYC-Tech-Connect.b6a0be7c59812abdbd46.PNG",
     "../../templates/index.html": "/static/react/../../templates/index.html",
-    "main.d99b9688.css.map": "/static/react/css/main.d99b9688.css.map",
-    "main.08f3d156.js.map": "/static/react/js/main.08f3d156.js.map",
-    "937.b20e7593.chunk.js.map": "/static/react/js/937.b20e7593.chunk.js.map",
-    "787.1f559aaf.chunk.js.map": "/static/react/js/787.1f559aaf.chunk.js.map"
+    "main.2721c3b2.css.map": "/static/react/css/main.2721c3b2.css.map",
+    "main.f609367e.js.map": "/static/react/js/main.f609367e.js.map"
   },
   "entrypoints": [
-    "css/main.d99b9688.css",
-    "js/main.08f3d156.js"
+    "css/main.2721c3b2.css",
+    "js/main.f609367e.js"
   ]
 }

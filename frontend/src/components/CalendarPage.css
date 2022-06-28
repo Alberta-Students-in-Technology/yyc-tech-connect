@@ -1,122 +1,70 @@
 #ctitle{
     margin-top: 1vh;
 }
-.optionst{
-    margin-top: 2vh;
-}
-.optionst2{
-    display: none;
-}
-.options{
-    transition-duration: 500ms;
+
+
+.cont{
+    width: 100vw;
+    height: 100vh;
     position: fixed;
-    width: 50vw;
-    height: 80vh;
-    background-image: url('./Page.png');
-    background-size: 100%;
-    justify-content: center;
-    align-items: center;
-    border-radius: 30px;
-    top: 20vh
-}
-.options2{
-    position: fixed;
-    width: 50px;
-    height: 80vh;
-    background-image: url('./Page.png');
-    background-size: 300%;
-    justify-content: center;
-    align-items: center;
-    border-radius: 30px;
-    transition-duration: 500ms;
-    top: 20vh
+    filter: blur(20px);
+
 }
 
-
-#pull-tab{
-    background-image: url('./Arrow.png');
-    background-position: center;
-    background-size: 50%;
-    float: right;
-    background-repeat: no-repeat;
-    background-color: transparent;
-    height: 100%;
-    overflow: hidden;
-    width: 30px;
-}
-#tab{
-   width: 80%; 
-   height:80%;
-   margin-left: 5vw;
-   margin-top: 4vh;
-   background-color: transparent;
-}
-
-#labels{
-    width: 100px;
-}
 #page{
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background-image: url('https://www.teahub.io/photos/full/11-117363_night-sky-wallpapers-high-resolution-background-starry-night.jpg');
+    background-color: white;
 }
 #outline{
+    align-items: center;
     position:fixed;
     display: inline-block;
-    background-color: rgba(255, 190, 74, 1);
+    background-color: #BE2424;
     width: 80vw;
-    height: 100vh;
-    margin-top: 50px;
-    z-index: -1;
-    left: 10vw;
+    height: 80vh;
     top: 10vh;
+    left: 10vw;
+    z-index: -1;
     align-items: center;
-    border-radius: 50px;
+    border-radius: 10px;
     background-size: 30vh;
-    background-position: center;
+    background-position: 50%;
     background-repeat: no-repeat;
+    justify-content: center;
 }
 iframe{
-    width:90%; 
-    height:70%; 
-    margin-top: 7vh;
+    width:94%; 
+    height:85%; 
+    margin-bottom: 0;
     border-width: 5px;
-}
-
-
-#chooseevent{
-    margin-top: -10px;
-    display: block;
-    height: 120px;
-    overflow: auto;
-}
-#choosealarm{
-    top: 0;
-    display: block;
-    height: 120px;
-    overflow: auto;
+    border-radius: 5px;
 
 }
-#outlined-basic{
-    width: 10vw;
-    float: right;
-}
-#signout{
-    margin: 10px;
-    border: 1px solid black;
-}
-#changeuser{
-    margin: 10px;
-}
-#userform{
+
+#retitle{
+    background-image: url('../Components-Welcome/YYC-Tech-Connect.PNG');
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 5%;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-#passform{
-}
-.tabscontainer{
-    display: contents;
-}
-.tabscontainer2{
-    display: none
-}
+#backgroundimage2{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    background-image: url('../Components-Welcome/CalgaryBackground2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: center;
+    top:50%;
+    transform: translateY(-50%);
+  }

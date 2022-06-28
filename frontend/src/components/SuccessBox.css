@@ -2,13 +2,15 @@
     text-align: center;
 }
 .blur {
-    backdrop-filter: blur(10px);
+    position: absolute;
     height: 100vh;
-    width: 100vw;
-    margin: auto;
+    width: 100%;
+    display: flex;
+    filter: blur(20px);
+    background-color: rgba(0,0,0,0.2);
 }
 .blur2{
-    backdrop-filter: blur(0px);
+   
     background-color: clear; 
     height: 100vh;
     width: 100vw;
@@ -16,23 +18,30 @@
     transition-duration: 1s;
 }
 .total{
-    display: flex;
+    
+
+
+   
+        display: flex;
     position: relative;
-    width: 100vw;
     height: 100vh;
     align-items: center;
     justify-content: center;
-    background-color: transparent;
+    
 }
+
+.
+
+
 .total2{
-    display: none;
+	display:none
 }
 
 .box{
     position: absolute;
     width: 40vw;
     height: 40vh;
-    background-color: rgb(255, 190, 74);
+    background-color: #BE2424;
     margin: auto;
     top: 50%;
     margin-top: -20vh;
@@ -43,7 +52,7 @@
     position: absolute;
     width: 50vw;
     height: 50vh;
-    background-color: rgb(255, 190, 74);
+    background-color: #BE2424;
     margin: auto;
     top: 50%;
     margin-top: -25vh;
@@ -54,7 +63,7 @@
     width: 50vh;
     height: 50vh;
     position: absolute;
-    background-color: rgb(255, 190, 74);
+    background-color: #BE2424;
     margin: auto;
     top: 50%;
     margin-top: -25vh;
@@ -63,19 +72,19 @@
     transform: scale(0);
 }
 
-h1{
-    text-align: center;
-    font-family: 'Bungee Shade', cursive;
-    color: white;
-    font-weight: 1200;
-    font-size: 300%;
-    margin-bottom: 0;
-    padding-bottom: 0;
+#successtitle{
+    background-image: url('../components/Success.jpg');
+    background-repeat: no-repeat;
+    height: 20%;
+    background-position-x: center;
+    margin: 20px 0;
+    width: 100%;
+    background-size: contain;
 }
 h2{
-    font-family: serif;
+    font-family: Roboto;
     margin-top: 0;
-
+    color: white;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
@@ -83,5 +92,8 @@ h2{
 #button{
     width: 80%;
     height: 15%;
-    bottom: 5px;
+    background-color: white;
+    color: black;
+    font-family: Roboto
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');

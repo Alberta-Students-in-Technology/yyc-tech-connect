@@ -19,7 +19,10 @@ def main():  # put application's code here
 @app.route('/home', methods=['POST','GET'])
 def get_token():
     #gets the token from url via js and redirects to main screen
-    return render_template('index.html')
+    return '''<script type="text/javascript">
+    	var token = window.location.href.split("access_token=")[1]; 
+        window.location = "/main/" + token;
+        </script>'''
 
 
 #main page w/ calendar and w/ acesc token being used as variable in route

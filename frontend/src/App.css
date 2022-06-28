@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -14,7 +15,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+#backgroundimage{
+  width: 100vw;
+  height: 60vh;
+  position: absolute;
+  z-index: -1;
+  background-image: url('./Components-Welcome/CalgaryBackground.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  bottom:0;
+  background-position-y: bottom;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+#maintitle{
+  margin-bottom: 0;
+}
+
+#credits{
+  background-image: url('./components/Logo.png');
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position-x: center;
+  background-position-y: 90%;
+  font-size: 13px;
+  padding: 5px;
+  border-radius: 20px;
+  height: 100px;
+  width: 400px;
+  bottom: 50px;
+  position: absolute;
+  color: white;
+  left: 50%;
+  transform: translate(-50%);
 }
