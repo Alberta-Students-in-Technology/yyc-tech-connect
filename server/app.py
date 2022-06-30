@@ -2,8 +2,8 @@ import eventbrite
 import requests
 from flask import Flask, url_for
 from flask import render_template, redirect, request
-from handle_events.calendar import HandleCalendar as GCal
-from handle_events.events import Events
+from server.handle_events.calendar import HandleCalendar as GCal
+from server.handle_events.events import Events
 import json
 
 app = Flask(__name__)
@@ -25,13 +25,11 @@ def get_token():
         </script>'''
 
 
-#main page w/ calendar and w/ acesc token being used as variable in route
+#main page w/ calendar and w/ access token being used as variable in route
 @app.route('/main/<token>', methods=['GET','POST'])
 def view_cal(token):
     #if method pot, get eventbrite events using token and adds events via GCal
     GCal().add_events(Events(token).get_events())
-
-
     return render_template('index.html')
 
 #for viewing the calendar as is   

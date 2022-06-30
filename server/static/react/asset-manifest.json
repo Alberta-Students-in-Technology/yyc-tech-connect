@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/react/css/main.2721c3b2.css",
-    "main.js": "/static/react/js/main.f609367e.js",
+    "main.js": "/static/react/js/main.08c70a56.js",
+
     "media/EventbriteIcon.PNG": "/static/react/media/EventbriteIcon.9e78911b3f28ef13e5a7.PNG",
     "media/CalgaryBackground2.jpg": "/static/react/media/CalgaryBackground2.952749040e619f7032ff.jpg",
     "media/CalgaryBackground.jpg": "/static/react/media/CalgaryBackground.6554e0d4071c4e179c50.jpg",
@@ -10,10 +11,11 @@
     "media/YYC-Tech-Connect.PNG": "/static/react/media/YYC-Tech-Connect.b6a0be7c59812abdbd46.PNG",
     "../../templates/index.html": "/static/react/../../templates/index.html",
     "main.2721c3b2.css.map": "/static/react/css/main.2721c3b2.css.map",
-    "main.f609367e.js.map": "/static/react/js/main.f609367e.js.map"
+    "main.08c70a56.js.map": "/static/react/js/main.08c70a56.js.map"
   },
   "entrypoints": [
     "css/main.2721c3b2.css",
-    "js/main.f609367e.js"
+    "js/main.08c70a56.js"
+
   ]
 }
