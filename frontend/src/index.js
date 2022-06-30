@@ -16,6 +16,7 @@ import SuccessBox from './components/SuccessBox';
 import Favicon from 'react-favicon';
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
