@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import CalendarPage from './components/CalendarPage';
-import SuccessBox from './components/SuccessBox';
+import CalendarPage from './frontend-components/components/CalendarPage';
+//import SuccessBox from './frontend-components/components/SuccessBox';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

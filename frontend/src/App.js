@@ -1,14 +1,13 @@
 import './App.css';
-import { amber, orange } from '@mui/material/colors';
 import { ThemeProvider } from '@emotion/react';
 import { Grid, Typography } from '@mui/material';
 import { Paper } from '@mui/material';
 import { Button } from '@mui/material';
 import { useTheme } from "@mui/material"
 import { Box } from '@mui/system';
-import Icon from './Components-Welcome/EventbriteIcon.PNG'
-import TechConnectTitle from './Components-Welcome/YYC-Tech-Connect.PNG'
-import Theme from './Components-Welcome/Theme.js'
+import Icon from './frontend-components/Components-Welcome/EventbriteIcon.PNG'
+import TechConnectTitle from './frontend-components/Components-Welcome/YYC-Tech-Connect.PNG'
+import Theme from './frontend-components/Components-Welcome/Theme'
 
 function App() {
   const theme = useTheme();
