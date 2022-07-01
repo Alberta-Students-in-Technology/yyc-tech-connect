@@ -39,7 +39,7 @@ function App() {
 
           
 
-                    <Button href='https://www.eventbrite.com/oauth/authorize?response_type=token&client_id=3HTNJKGME32RPZDRJL &redirect_uri=https://yyc-tech-connect.herokuapp.com/home'
+                    <Button href='https://www.eventbrite.com/oauth/authorize?response_type=token&client_id=3HTNJKGME32RPZDRJL&redirect_uri=https://yyc-tech-connect.herokuapp.com/home'
 
                       variant='contained' color="secondary" sx={{ mt: 0, ml: 0, height: 80, width: 400, borderRadius: 50 }}>
                       <Box sx={{ position: "absolute", left: "1%", top: 6 }}>
