@@ -20,7 +20,7 @@ function CalendarPage(){
             <div id='outline'>
                 <div id="retitle"></div>
                 <iframe 
-                    src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffbe4a&ctz=America%2FEdmonton&showTitle=0&showCalendars=1&src=Y2t1Y25xYWFobTIxczVyZmdudjM2MzRvOThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=anZ0NWhobXJmYm5raml2Zm1zZmpvbXNlMDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%234285F4&color=%23D50000">
+                    src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffbe4a&ctz=America%2FEdmonton&showTitle=0&showCalendars=1&src=albertastudentsintech@gmail.com&color=%234285F4&color=%23D50000">
                 </iframe>
             </div> 
             

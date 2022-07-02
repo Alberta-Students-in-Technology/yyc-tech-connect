@@ -4,12 +4,19 @@ import './index.css';
 import App from './App';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import CalendarPage from './frontend-components/components/CalendarPage';
-//import SuccessBox from './frontend-components/components/SuccessBox';
+import Favicon from 'react-favicon';
+import t from "./favicon-imgs/1.png";
+import e from "./favicon-imgs/2.png";
+import c from "./favicon-imgs/3.png";
+import h from "./favicon-imgs/4.png";
+import o from "./favicon-imgs/5.png";
+import n from "./favicon-imgs/6.png";
+import c2 from "./favicon-imgs/tower.png";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    
+    <Favicon url={[t,e,c,h,c2,c,o,n,n,e,c,]}/>
     <Router>
     <Routes>
     <Route  path='/' exact element = {<App />} />

@@ -3,14 +3,14 @@ from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from datetime import datetime, timedelta
 
-# handles calendar events -- can integarte auth tech later
+# handles calendar events 
 
 class HandleCalendar:
-   def __init__(self, calendar_id="jvt5hhmrfbnkjivfmsfjomse04@group.calendar.google.com"):
+   def __init__(self, calendar_id="albertastudentsintech@gmail.com"):
        # creating api service
 
        SCOPES = ['https://www.googleapis.com/auth/calendar']
-       SERVICE_ACCOUNT_FILE = 'key.json'  # You should make it an environment variable
+       SERVICE_ACCOUNT_FILE = 'key.json'  
        SUBJECT = "asit-gcal@asit-gcal.iam.gserviceaccount.com"
 
        credentials = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=SCOPES)
