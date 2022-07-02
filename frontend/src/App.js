@@ -88,5 +88,6 @@ function App() {
     </ThemeProvider >
   );
 }
+//https://www.eventbrite.com/oauth/authorize?response_type=token&client_id=3HTNJKGME32RPZDRJL&redirect_uri=https://yyc-tech-connect.herokuapp.com/home
 
 export default App;
